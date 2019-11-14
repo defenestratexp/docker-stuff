@@ -4,7 +4,7 @@ FROM ubuntu:latest
 RUN apt-get update
 
 # Installing curl as a test
-RUN apt-get install --no-install-reccomends --no-install-suggests -y curl
+RUN apt-get install --no-install-recommends --no-install-suggests -y curl
 
 # Clear apt/lists
 RUN rm -rf /var/lib/apt/lists/*
